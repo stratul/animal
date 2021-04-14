@@ -1,0 +1,257 @@
+
+ /* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
+
+
+ /* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+    h1{
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 38px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    p,a,button{
+        font-size: 17px;
+    }
+
+
+    .team-section .profile ul li a{        
+        font-size: 20px;
+    }
+
+
+}
+
+
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+
+    .banner {
+        padding: 140px 0 60px 0;
+    }
+    .banner-buttons button {
+        padding: 10px 20px;
+        border-radius: 5px;
+        outline: none;
+    }
+
+
+    .video-1 .col-md-5::before {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        left: -20px;
+        width: 40%;
+        height: 40%;
+        background-color: #fcc302;
+        z-index: -1;
+    }
+    .video-2 .col-md-5::before {
+        content: "";
+        position: absolute;
+        right: -20px;
+        bottom: -20px;
+        width: 40%;
+        height: 40%;
+        background-color: #fcc302;
+        z-index: -1;
+    }
+
+
+    .post-section .post{
+        width: 100%;
+        margin: auto;
+    }
+    .post-section .post .post-details h4 {
+        margin: 10px 0 0 0;
+        font-size: 20px;
+    }
+    .post-section .post .post-details p {
+        margin: 8px 0 12px 0;
+        font-size: 15px;
+    }
+    .post-section .post .post-details a {
+        color: #00bec9;
+        text-decoration: none;
+    }
+
+
+    footer {
+        padding: 80px 0;
+    }
+    footer h3{
+        font-size: 30px;
+    }
+    footer a{
+        font-size: 16px;
+    }
+    .footer-right .input-group-text i {
+        font-size: 30x;
+    }
+    .footer-right ul li {
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+}
+
+
+ /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    h1{
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    h2 {
+        font-size: 34px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+    p,a,button{
+        font-size: 15px;
+    }
+    p{
+        margin: 10px 0;
+    }
+    .banner-left {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+
+    .video-1,.video-2 {
+        padding: 60px 0;
+    }
+    .video-1 button,.video-2 button {
+        padding: 10px 20px;
+    }
+    .video-1-left {
+        margin-bottom: 30px;
+    }
+
+    .video-1 .video-1-right, .video-2 .video-2-left {
+        width: 80% !important;
+        margin: auto;
+    }
+
+
+    .service-section,.price-section {
+        padding: 60px 0;
+    }
+    .service-section p,.price-section p,.team-section p {
+        margin-bottom: 30px;
+    }
+    .service-section .service h3,.price-section .price h3,.team-section .profile h3 {
+        margin: 10px 0 10px 0;
+    }
+    .service-section .service p,.team-section .profile p{
+        margin-bottom: 50px;
+    }
+
+
+
+    .video-2-right {
+        margin-top: 60px;
+    }
+
+
+
+    .price button {
+        padding: 10px 40px;
+        margin-bottom: 50px;
+    }
+
+
+    .team-section {
+        padding: 60px 0;
+    }
+    .team-section .profile p {
+        margin-bottom: 0px;
+    }
+    .team-section .profile ul {
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+        margin: 10px 0 50px 0;
+    }
+
+
+    .counting-section .container {
+        padding: 100px 0;
+    }
+    .counting-section .container h3{
+        font-size: 23px;
+    }
+
+
+    .post-section {
+        padding: 60px 0;
+    }
+    .post-section p{
+        margin-bottom: 20px;
+    }
+    .post-section .post{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .post-section .post .post-details h4 {
+        margin: 10px 0 0 0;
+        font-size: 20px;
+    }
+    .post-section .post .post-details p {
+        margin: 8px 0 12px 0;
+        font-size: 15px;
+    }
+    .post-section .post .post-details a {
+        color: #00bec9;
+        text-decoration: none;
+    }
+
+    .footer-right {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .footer-right p{
+        margin: 0 0 15px 0;
+    }
+
+
+
+}
+
+
+ /* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+
+    .counting-section .container {
+        padding: 40px 0;
+    }
+    .counting-section .container h3{
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .counting-section .container img {
+        width: 50px;
+        margin-bottom: 10px;
+    }
+    .counting-section .container .col-sm-4:not(:last-child){
+        margin-bottom: 30px;
+    }
+    footer .col-sm-6{
+        text-align: center;
+    }
+    
+    
+    
+}

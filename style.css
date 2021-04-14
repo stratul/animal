@@ -14,21 +14,21 @@ body {
     color: #ffffff;
 }
 h1 {
-    font-size: 66px;
+    font-size: 55px;
 }
 h2 {
-    font-size: 50px;
+    font-size: 45px;
 }
 h3 {
-    font-size: 38px;
+    font-size: 35px;
 }
 p,a,button {
-    font-size: 25px;
+    font-size: 22px;
     color: #ffffff;
     font-weight: 400;
 }
 p {
-    margin: 30px 0;
+    margin: 20px 0;
 }
 button {
     font-size: 20px;
@@ -57,18 +57,28 @@ input:focus {
 
 header {
     width: 100%;
-    background-color: rgba(0,0,0,0.1);
+    background-color: #daac00;
     padding: 10px 0;
     position: absolute;
 }
 header .nav-item {
     margin: 15px;
 }
+header .nav-item a:hover{
+    transform: scale(1.1);
+    color: #000 !important;
+}
 .input-group-text {
     padding: .375rem 1.25rem;
     background-color: #00bec9;
     border: none !important;
     border-radius: 0px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
 }
 
 
@@ -134,6 +144,7 @@ header .nav-item {
 .video-1 img,.video-2 img {    
     width: 100%;
     margin: 0;
+    height: 100%;
 }
 .overlay {
     position: absolute;
@@ -214,7 +225,7 @@ header .nav-item {
 
 .price h3 span:first-child {
     text-decoration: line-through;    
-    margin: 30px 25px;
+    margin: 30px 25px 30px 0;
 }
 .price button {
     padding: 15px 50px;
@@ -242,16 +253,22 @@ header .nav-item {
 .team-section .profile ul {
     display: flex;
     justify-content: center;
+    padding-left: 0px;
+    margin-top: 20px;
 }
 .team-section .profile ul li {
     background-color: #fcc302;
     list-style: none;
     width: 40px;
     height: 40px;
-    font-size: 33px;
     line-height: 40px;
-    margin: 20px 10px 0 10px;
     border-radius: 50%;
+}
+.team-section .profile ul li a{        
+    font-size: 20px;
+}
+.team-section .profile ul li:not(:last-child){    
+    margin-right: 10px;
 }
 
 /*******************
@@ -265,6 +282,7 @@ header .nav-item {
     background-position: center;
     background-size: cover;
     min-height: 450px;
+    height: auto;
     position: relative;
 }
 .counting-section .container {
